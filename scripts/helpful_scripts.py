@@ -8,6 +8,7 @@ from brownie import (
     MockWETH,
     Contract,
 )
+
 from web3 import Web3
 
 NON_FORKED_LOCAL_BLOCKCHAIN_ENVIRONMENTS = ["hardhat", "development", "ganache"]
